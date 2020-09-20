@@ -1,10 +1,11 @@
 @import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap";
 
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
 }
+
 body {
   background: #282a36;
   font-family: 'Source Sans Pro', sans-serif;
@@ -12,18 +13,18 @@ body {
 
 }
 
-header{
-padding: 30px;
-border-bottom: 1px solid #333;
-background: rgba(0,0,0, 0.1);
- 
+header {
+  padding: 30px;
+  border-bottom: 1px solid #333;
+  background: rgba(0, 0, 0, 0.1);
+
 }
 
-.links{
+.links {
   text-align: center;
 }
 
-.links a{
+.links a {
   color: white;
   margin: 0 20px;
   font-size: 22px;
@@ -37,29 +38,29 @@ background: rgba(0,0,0, 0.1);
   transition: color 700ms;
 }
 
-#wrapper{
+#wrapper {
 
   text-align: center;
   padding: 30px;
 }
 
 
-#wrapper img{
+#wrapper img {
 
-  border-radius:50%;
+  border-radius: 50%;
   border: 5px solid #50fa7b;
   margin-bottom: 30px;
   height: 250px;
 }
 
-#wrapper h1{
+#wrapper h1 {
 
   font-size: 42px;
   line-height: 52px;
   font-weight: bold;
 }
 
-#wrapper h2{
+#wrapper h2 {
 
   font-size: 24px;
   line-height: 52px;
@@ -71,6 +72,6 @@ background: rgba(0,0,0, 0.1);
 
 #links-footer a {
 
-border-bottom: 1px solid #50fa7b;
+  border-bottom: 1px solid #50fa7b;
 
 }
