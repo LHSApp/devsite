@@ -4,9 +4,12 @@ const cards = document.querySelectorAll(".card");
 
 for (let card of cards) {
   card.addEventListener("click", function () {
+    const imageId = card.getAttribute("id");
+
     modalOverley.classList.add("active");
-    modalOverley.querySelector("iframe").src =
-      `https://leandrohsantos.com.br/images/${imageId}`;
+    modalOverley.querySelector(
+      "img"
+    ).src = `https://leandrohsantos.com.br/images/${imageId}`;
   });
 }
 
