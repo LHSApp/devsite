@@ -1,0 +1,24 @@
+{
+  "name": "devsite",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de site pessoal!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LHSApp/devsite.git"
+  },
+  "keywords": [],
+  "author": "Leandro Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LHSApp/devsite/issues"
+  },
+  "homepage": "https://github.com/LHSApp/devsite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  }
+}
