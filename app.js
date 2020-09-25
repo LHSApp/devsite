@@ -11,7 +11,7 @@ nunjucks.configure("views", {
 })
 app.get("/", function(req, res){
 
-  return res.render("index")
+  return res.render("about")
 })
 
 app.get("/classes", function(req, res){
