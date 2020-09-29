@@ -1,6 +1,7 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
 const app = express()
+const videos = require("./data")
 
 app.use(express.static('public'))
 
@@ -16,7 +17,7 @@ app.get("/", function(req, res){
 
 app.get("/classes", function(req, res){
 
-  return res.render("classes")
+  return res.render("classes", {items: videos})
 })
 
 app.listen(5000, function() {
