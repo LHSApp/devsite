@@ -3,27 +3,27 @@
 
  
     {%  block head %}
-<title>Sobre - Leandro Santos</title>
+<title>Sobre - {{about.name}}</title>
     {% endblock %}
 
   
 {% block content%}
     <div id="wrapper">
       <img
-        src="https://avatars0.githubusercontent.com/u/48134318?s=460&u=1ab8aefde787685c5913a792411c4c6f4d17aba8&v=4"
-        alt="Leandro Santos"
+        src="{{about.avatar_url}}"
+        alt="{{about.name}}"
       />
-      <h1>Leandro Santos</h1>
+      <h1>{{about.name}}</h1>
 
-      <h2>Programador Web</h2>
+      <h2>{{about.role}}</h2>
     </div>
 
     <div id="links-footer" class="links">
-      <a href="https://github.com/LHSApp" target="_blank" rel="noopener">Github</a>
 
-      <a href="https://www.instagram.com/leandro.h.santos/" target="_blank" rel="noopener">Instagram</a>
+      {%for link in about.link%}
+      <a href="{{link.url}}" target="_blank" rel="noopener">{{link.name}}</a>
 
-      <a href="/" target="_blank" rel="noopener">Contato</a>
+      {% endfor %}
     </div>
 
     {% endblock%}

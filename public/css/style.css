@@ -90,6 +90,7 @@ header {
 
 .card{
   background-color: #7159c1;
+  display: grid;
 }
 
 .card_image-conteiner img{
@@ -103,6 +104,7 @@ header {
 .card_info{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .card_price{
