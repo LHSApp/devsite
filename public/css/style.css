@@ -171,3 +171,18 @@ iframe{
 
 /* === FEATURED ====*/
 
+.card_image-conteiner{
+  position: relative;
+
+}
+
+.featured{
+  background: #3fff0085;
+    color: #fff;
+    padding: 2px 8px;
+    position: absolute;
+    left: 5px;
+    border-radius: 16px;
+    top: -10px;
+
+}
