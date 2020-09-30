@@ -21,6 +21,11 @@
     <div class="card" id="{{item.id}}">
       <div class="card_image-conteiner">
         <img src="https://img.youtube.com/vi/{{item.id}}/mqdefault.jpg" alt="{{item.title}}" />
+        {% if item.featured %}
+
+        <div class="featured">Featured</div>
+
+        {%endif%}
       </div>
       <div class="card_content">
         <p>{{item.title}}</p>
