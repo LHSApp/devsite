@@ -1,47 +1,26 @@
 module.exports = [
   {
     id: "4SWMps4uFIQ",
-    title: "Nlw 1",
-    duration: "10 min",
-    price: "Free",
+    title: "Bruno Mars - Locked Out Of Heaven - (DRUM COVER )",
+    duration: "4 min",
+    price: " Drum Cover",
     featured: true
   },
 
 
   {
-    id: "1eSlvoO3Vw8",
-    title: "Nlw 1",
-    duration: "10 min",
-    price: "Free"
+    id: "-dPv5JIqTVQ",
+    title: "Sweet Child O' Mine - Guns N' Roses - Drum Cover1",
+    duration: "6 min",
+    price: " Drum Cover"
   },
 
   {
-    id: "4SWMps4uFIQ",
-    title: "Nlw 1",
-    duration: "10 min",
-    price: "Free"
+    id: "SpHNIbWt2rk",
+    title: "Bon Jovi - This House Is Not For Sale - Drum Cover",
+    duration: "4 min",
+    price: "Drum Cover"
   },
 
-  {
-    id: "1eSlvoO3Vw8",
-    title: "Nlw 1",
-    duration: "20 min",
-    price: "Free"
-  },
 
-  {
-    id: "1eSlvoO3Vw8",
-    title: "Nlw 1",
-    duration: "15 min",
-    price: "Free",
-    featured: true
-  },
-
-  {
-    id: "4SWMps4uFIQ",
-    title: "Nlw 1",
-    duration: "12 min",
-    price: "Free",
-    featured: true
-  },
 ]
