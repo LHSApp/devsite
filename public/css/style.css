@@ -196,3 +196,15 @@ max-width: 800px;
 
 }
 
+.card_video-conteiner{
+
+  position: relative;
+  padding-top: 63%;
+}
+
+.card_video-conteiner iframe{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+}
