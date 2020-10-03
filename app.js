@@ -49,6 +49,9 @@ app.get("/video", function(req, res){
   return res.render("video", {item: video})
 })
 
-app.listen(5000, function() {
-  console.log(" server in running ")
-})
+
+
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+    console.log('Umbler listening on port %s', port);
+});
