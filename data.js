@@ -10,7 +10,7 @@ module.exports = [
 
   {
     id: "-dPv5JIqTVQ",
-    title: "Sweet Child O' Mine - Guns N' Roses - Drum Cover1",
+    title: "Sweet Child O' Mine - Guns N' Roses - Drum Cover",
     duration: "6 min",
     price: " Drum Cover"
   },
