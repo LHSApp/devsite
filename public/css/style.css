@@ -208,3 +208,20 @@ max-width: 800px;
   position: absolute;
   top: 0;
 }
+
+
+/* === MOBILE ====*/
+
+@media screen and (max-width: 400px) {
+  .cards {
+    
+    grid-template-columns: auto;
+    
+}
+
+#wrapper h1 {
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: bold;
+}
+}
