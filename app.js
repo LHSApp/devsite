@@ -10,7 +10,7 @@ app.set("view engine", "njk")
 nunjucks.configure("views", {
   express:app,
   autoescape: false,
-  noCache: true
+ 
 })
 app.get("/", function(req, res){
 

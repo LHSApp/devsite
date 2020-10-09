@@ -1,8 +1,8 @@
 {
-  "name": "cadastro_de_pessoas",
+  "name": "devsite",
   "version": "1.0.0",
   "description": "Desenvolvimento de site pessoal!",
-  "main": "app.js",
+  "main": "script.js",
   "scripts": {
     "start": "node app.js"
   },
