@@ -29,11 +29,32 @@ app.get("/", function(req, res){
   return res.render("about", {about})
 })
 
+app.get("/App", function(req, res){
+
+  const about = {
+  avatar_url: "https://avatars0.githubusercontent.com/u/48134318?s=460&u=1ab8aefde787685c5913a792411c4c6f4d17aba8&v=4",
+  name: "Leandro Santos ",
+  role: "Programador Web",
+  link: [
+    {name: "Github", url:" https://github.com/LHSApp"},
+    {name: "Instagram", url:" https://www.instagram.com/leandro.h.santos/"},
+    {name: "Contato", url:" mailto:leandro@leandrohsantos.com.br"},
+  ]
+
+  }
+
+  return res.render("about", {about})
+})
+
 app.get("/Hobbies", function(req, res){
 
   return res.render("Hobbies", {items: videos})
 })
 
+app.get("/App", function(req, res){
+
+  return res.render("App", {items: videos})
+})
 
 app.get("/video", function(req, res){
   const id= req.query.id
