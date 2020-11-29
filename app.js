@@ -29,9 +29,9 @@ app.get("/", function(req, res){
   return res.render("about", {about})
 })
 
-app.get("/Portfolio", function(req, res){
+app.get("/Hobbies", function(req, res){
 
-  return res.render("Portfolio", {items: videos})
+  return res.render("Hobbies", {items: videos})
 })
 
 
