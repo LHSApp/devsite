@@ -20,7 +20,7 @@ app.get("/", function(req, res){
   role: "Programador Web",
   link: [
     {name: "Github", url:" https://github.com/LHSApp"},
-    {name: "Instagram", url:" https://www.instagram.com/leandro.h.santos/"},
+    {name: "Instagram", url:" https://www.instagram.com/leandrohsantos.com.br/"},
     {name: "Contato", url:" mailto:leandro@leandrohsantos.com.br"},
   ]
 
