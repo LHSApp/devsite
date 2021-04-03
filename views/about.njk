@@ -1,31 +1,50 @@
-
-{% extends "layout.njk"%}
-
- 
-    {%  block head %}
+ {% extends "layout.njk"%} {% block head %}
 <title>Sobre - {{about.name}}</title>
-    {% endblock %}
+{% endblock %} {% block content%}
+<div id="wrapper">
+    <img src="{{about.avatar_url}}" alt="{{about.name}}" />
+    <h1>{{about.name}}</h1>
 
-  
-{% block content%}
-    <div id="wrapper">
-      <img
-        src="{{about.avatar_url}}"
-        alt="{{about.name}}"
-      />
-      <h1>{{about.name}}</h1>
+    <h2>{{about.role}}</h2>
+</div>
 
-      <h2>{{about.role}}</h2>
+<div id="links-footer" class="links">
+
+    {%for link in about.link%}
+    <a href="{{link.url}}" target="_blank" rel="noopener">{{link.name}}</a> {% endfor %}
+</div>
+
+{% endblock%}
+
+
+<section class="box_background">
+    <div class="container">
+
+        <div class="box">
+            <h2 class="name">Product Name</h2>
+            <a href="" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/shoe_1.png" alt="" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Product Name</h2>
+            <a href="" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/shoe_1.png" alt="" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Product Name</h2>
+            <a href="" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/shoe_1.png" alt="" class="product">
+        </div>
     </div>
 
-    <div id="links-footer" class="links">
-
-      {%for link in about.link%}
-      <a href="{{link.url}}" target="_blank" rel="noopener">{{link.name}}</a>
-
-      {% endfor %}
-    </div>
-
-    {% endblock%}
-
-
+</section>
+<script src="/vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+</script>
